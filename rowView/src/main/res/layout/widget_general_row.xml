@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+        android:id="@+id/iv_row_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/more_setting"
+        />
+    <TextView
+        android:id="@+id/tv_row_text"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/iv_row_arrow"
+        android:src="@drawable/rowview_arrow"
+        android:layout_gravity="center_vertical|right"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+</merge>
