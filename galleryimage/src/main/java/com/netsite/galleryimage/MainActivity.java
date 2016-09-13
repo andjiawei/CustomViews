@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         scrollView = (MyHorizontalScrollView) findViewById(R.id.scrollView);
         scrollView.setOnImageChangeListener(new MyHorizontalScrollView.OnImageChangeListener() {
             @Override
-            public void onImageChange(int position,View item) {
+            public void onImageChange(int position, View item) {
                 imageView.setImageResource(mDatas.get(position));
             }
         });
@@ -48,6 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void setData() {
         imageView.setImageResource(mDatas.get(0));//默认设置第一张
-        scrollView.setData(new HorizontalScrollViewAdapter(this,mDatas));
+        scrollView.setData(new HorizontalScrollViewAdapter(this, mDatas));
     }
 }
