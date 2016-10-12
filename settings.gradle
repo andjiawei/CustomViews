@@ -1,1 +1,1 @@
-include ':rowView', ':galleryimage'
+include ':rowView', ':galleryimage', ':plusminbutton', ':yourwebview'

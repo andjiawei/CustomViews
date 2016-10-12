@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/CustomView.iml" filepath="$PROJECT_DIR$/CustomView.iml" />
       <module fileurl="file://$PROJECT_DIR$/rowView/app.iml" filepath="$PROJECT_DIR$/rowView/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/galleryimage/galleryimage.iml" filepath="$PROJECT_DIR$/galleryimage/galleryimage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plusminbutton/plusminbutton.iml" filepath="$PROJECT_DIR$/plusminbutton/plusminbutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/rowView/rowView.iml" filepath="$PROJECT_DIR$/rowView/rowView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yourwebview/yourwebview.iml" filepath="$PROJECT_DIR$/yourwebview/yourwebview.iml" />
     </modules>
   </component>
 </project>

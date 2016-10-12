@@ -57,8 +57,6 @@ public class SingleRowView  extends BaseRowView {
         });
     }
 
-
-
     public void setData(BaseModel baseModel, OnRowClickListener listener){
         this.listener = listener;
         //数据包括 ImageViewIcon text
